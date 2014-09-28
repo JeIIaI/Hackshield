@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hackshield", "hackshield\hackshield.vcxproj", "{3C0F1EE2-232A-48BB-9351-E9A82B19258C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HSSource", "HSSource\HSSource.vcxproj", "{3C0F1EE2-232A-48BB-9351-E9A82B19258C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
