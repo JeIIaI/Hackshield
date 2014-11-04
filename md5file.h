@@ -143,7 +143,7 @@ private:
     II (c, d, a, b, x[10], S43, 0xffeff47d);
     II (b, c, d, a, x[ 1], S44, 0x85845dd1);
     II (a, b, c, d, x[ 8], S41, 0x6fa87e4f);
-	II (d, a, b, c, x[15], S42, 0xfe2ce6e0);
+    II (d, a, b, c, x[15], S42, 0xfe2ce6e0);
     II (c, d, a, b, x[ 6], S43, 0xa3014314);
     II (b, c, d, a, x[13], S44, 0x4e0811a1);
     II (a, b, c, d, x[ 4], S41, 0xf7537e82);
@@ -272,7 +272,7 @@ public:
     unsigned char buffer[1024] ;
 
     if( (file = fopen (filename, "rb")) == NULL )
-      printf( "%s can't be opened\n", filename ) ;
+      printf( "%s can't be opened. App is closing.\n", filename ) ;
     else
 	{
 		len = fread( buffer, 1, 1024, file );
